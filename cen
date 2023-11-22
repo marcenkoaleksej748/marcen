@@ -1,0 +1,2 @@
+  if (chain not in pools_names):
+            logger.info(f'[{chain_id + 1}/{len(selected_chains) - len(set(selected_chains) & set(pools_names))}] Получение баланса в сети {chain.upper()}...')
